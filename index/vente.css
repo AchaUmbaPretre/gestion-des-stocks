@@ -1,0 +1,199 @@
+@font-face{
+    font-family: 'open';
+    src: url("/Font-Awesome-6.x/webfonts/fa-brands-400.ttf") format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.356);
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: system-ui;
+}
+.clairfix{
+    clear: both;
+}
+.logo{
+    margin : 0;
+    margin-left: 28px;
+    font-weight: bold;
+    color : #fff;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+.logo span{
+    color : rgba(0, 0, 0, 0.747);
+}
+.mysidenav{
+    height: 100%;
+    width: 300px;
+    position : fixed;
+    z-index: 3;
+    top : 0;
+    left : 0;
+    background-color: rgba(255, 0, 0, 0.623);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+.mysidenav a{
+    padding : 15px 8px 15px 32px;
+    display: block;
+    font-size : 19px;
+    color : #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.mysidenav a:hover{
+    color : rgba(255, 0, 0, 0.753);
+    background-color: #fff;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: 5px;
+}
+#main{
+    transition: margin-left .5s;
+    padding : 16px;
+    margin-left: 300px;
+}
+.head{
+    padding : 5px;
+    margin-bottom: 50px;
+
+}
+.col-div-6{
+    width : 50%;
+    float : left;
+}
+.profile{
+    display: inline-block;
+    float: right;
+    width: 160px;
+    margin-bottom: 6%;
+}
+.search{
+    position : absolute;
+    text-align: center;
+    margin-left: 365px;
+    padding-top: 5px;
+
+}
+.search label{
+    padding : 10px;
+
+}
+.search label input{
+    width : 100%;
+    height: 35px;
+    font-size: 15px;
+    padding : 5px 10px;
+    padding-left: 35px;
+    border-radius: 25px;
+    outline: none;
+    border : 1px solid rgba(0, 0, 0, 0.514);
+}
+.search label i{
+    position: absolute;
+    top: 15px;
+    left: 19px;
+    font-size: 1em;
+}
+.pro-img{
+    float : left;
+    width :40px;
+    margin-top : 5px;
+}
+.profile p{
+    color : #818181;;
+    font-weight: 500;
+    margin-left: 55px;
+    margin-top : 10px;
+    font-size : 13.5px
+}
+.profile p span{
+    font-weight: 400;
+    font-size : 12px;
+    display: block;
+    color : black;
+}
+.nav{
+    display: none;
+}
+.col-div-3{
+    width : 25%;
+    float : left;
+}
+.box{
+    width: 85%;
+    color : #fff;
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    cursor : pointer;
+    filter :drop-shadow(1px 1px 1px #585858);
+}
+.box p{
+    font-size: 35px;
+    color : #818181;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.box p span{
+    font-size: 15px;
+    font-weight: 400;
+    color : #818181;
+}
+.box-icon{
+    font-size: 40px!important;
+    float: right;
+    margin-top: 35px!important;
+    color : rgba(255, 0, 0, 0.753);
+    padding-right: 10px;
+}
+.col-div-8{
+    width : 70%;
+    float : left;
+    margin-top: 35px;
+}
+.col-div-4{
+    width : 30%;
+    float : left;
+    margin-top : 35px;
+}
+.content-box{
+    padding : 20px;
+}
+.content-box p{
+    margin : 0;
+    font-size : 20px;
+    color : rgba(255, 0, 0, 0.753);
+}
+.content-box p span{
+    float: right;
+    background: rgba(0, 0, 0, 0.096);
+    padding : 3px 10px;
+    font-size : 15px;
+    border-radius: 10px;
+}
+.box-8, .box-4{
+    width : 96.5%;
+    background: #fff;
+    height: 330px;
+    filter :drop-shadow(1px 1px 1px #585858);
+}
+.box-8{
+    margin-left : 10px;
+    width : 95%;
+}
+table{
+    border-collapse :collapse;
+    width : 100%;
+}
+th, td{
+    text-align : left;
+    padding : 15px;
+    border-bottom: 1px solid #58585860;
+}
